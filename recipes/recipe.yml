@@ -17,6 +17,10 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
+  - type: akmods
+    install:
+      - openrgb
+
   - type: dnf
     repos:
       copr:
@@ -26,7 +30,6 @@ modules:
         - mc
         - steam-devices
         - openrgb-udev-rules
-        - openrgb
         - lm_sensors # For fan speeds and others
         - lm_sensors-libs
         - btop
