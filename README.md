@@ -18,7 +18,9 @@ sudo rpm-ostree rebase ostree-image-signed:docker://ghcr.io/fgheorghe/flavos-kin
 
 ## ISO
 
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
+bash <(curl -s https://raw.githubusercontent.com/blue-build/cli/main/install.sh)
+
+sudo bluebuild generate-iso --iso-name flavos-kinoite.iso image ghcr.io/fgheorghe/flavos-kinoite
 
 ## Verification
 
