@@ -26,6 +26,7 @@ modules:
         - guestfs-tools
         - mc
         - steam-devices
+        - openrgb-udev-rules
     remove:
       packages:
         - firefox
