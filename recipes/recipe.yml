@@ -28,6 +28,8 @@ modules:
         - steam-devices
         - openrgb-udev-rules
         - openrgb
+        - lm_sensors # For fan speeds and others
+        - lm_sensors-libs
     remove:
       packages:
         - firefox
