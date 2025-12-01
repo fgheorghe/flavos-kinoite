@@ -64,7 +64,7 @@ modules:
           - org.gimp.GIMP
           - org.kde.isoimagewriter
           - org.kde.krita
-          - org.openrgb.OpenRGB
+          # - org.openrgb.OpenRGB
           # - runtime/org.freedesktop.Platform.ffmpeg-full/x86_64/24.08
 
       - scope: user # Also add Flathub user repo, but no user packages
