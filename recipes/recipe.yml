@@ -23,7 +23,6 @@ modules:
         - atim/starship
     install:
       packages:
-        - guestfs-tools
         - mc
         - steam-devices
         - openrgb-udev-rules
@@ -36,6 +35,11 @@ modules:
       packages:
         - firefox
         - firefox-langpacks
+
+  - type: dnf
+    install:
+      packages:
+        - guestfs-tools
 
   - type: systemd
     system:
