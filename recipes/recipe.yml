@@ -38,7 +38,7 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: true # Send notification after install/uninstall is finished (true/false)
+      - notify: false # Send notification after install/uninstall is finished (true/false)
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
@@ -55,7 +55,7 @@ modules:
           - org.kde.isoimagewriter
           - org.kde.krita
           - org.openrgb.OpenRGB
-          - org.freedesktop.Platform.ffmpeg-full
+          - runtime/org.freedesktop.Platform.ffmpeg-full/x86_64/24.08
 
       - scope: user # Also add Flathub user repo, but no user packages
 
