@@ -25,6 +25,7 @@ modules:
       packages:
         - guestfs-tools
         - mc
+        - steam-devices
     remove:
       packages:
         - firefox
