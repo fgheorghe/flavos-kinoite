@@ -5,9 +5,11 @@ Adds: guestfs-tools and mc by default. Based on Kinoite-NVIDIA.
 ## Installation
 
 # Rebase to your custom image
+sudo rpm-ostree reset
 sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/fgheorghe/flavos-kinoite:latest
 
 # Or with signature verification:
+sudo rpm-ostree reset
 sudo rpm-ostree rebase ostree-image-signed:docker://ghcr.io/fgheorghe/flavos-kinoite:latest
 
 ## ISO
