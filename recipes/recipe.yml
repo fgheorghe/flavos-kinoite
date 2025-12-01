@@ -63,4 +63,4 @@ modules:
 
   - type: script
     snippets:
-      - "lookandfeeltool -a org.kde.breezedark.desktop"
+      - "/usr/bin/lookandfeeltool -a org.kde.breezedark.desktop"
