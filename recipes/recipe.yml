@@ -30,6 +30,8 @@ modules:
         - openrgb
         - lm_sensors # For fan speeds and others
         - lm_sensors-libs
+        - btop
+        - cool-retro-term
     remove:
       packages:
         - firefox
