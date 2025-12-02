@@ -36,6 +36,8 @@ modules:
         - procs
         - gping
         - dua-cli
+        - podman-compose
+        - podman-tui
     remove:
       packages:
         - firefox
