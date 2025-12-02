@@ -21,6 +21,7 @@ modules:
     repos:
       copr:
         - atim/starship
+        - atim/gping
     install:
       packages:
         - mc
@@ -30,6 +31,11 @@ modules:
         - lm_sensors-libs
         - btop
         - cool-retro-term
+        - duf
+        - jq
+        - procs
+        - gping
+        - dua-cli
     remove:
       packages:
         - firefox
