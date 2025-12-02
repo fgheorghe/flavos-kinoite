@@ -38,6 +38,7 @@ modules:
         - dua-cli
         - podman-compose
         - podman-tui
+        - golang-github-nvidia-container-toolkit
     remove:
       packages:
         - firefox
