@@ -49,6 +49,11 @@ modules:
       packages:
         - guestfs-tools
 
+  - type: dnf
+    install:
+      packages:
+        - ollama
+
   - type: systemd
     system:
       enabled:
