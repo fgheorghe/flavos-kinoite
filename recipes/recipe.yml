@@ -41,7 +41,7 @@ modules:
         - podman-tui
         # - golang-github-nvidia-container-toolkit
         - ghostty
-        - ollama
+        # - ollama
     remove:
       packages:
         - firefox
