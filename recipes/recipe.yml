@@ -22,6 +22,7 @@ modules:
       copr:
         - atim/starship
         - atim/gping
+        - scottames/ghostty
     install:
       packages:
         - mc
@@ -38,7 +39,8 @@ modules:
         - dua-cli
         - podman-compose
         - podman-tui
-        - golang-github-nvidia-container-toolkit
+        # - golang-github-nvidia-container-toolkit
+        - ghostty
     remove:
       packages:
         - firefox
