@@ -16,3 +16,8 @@ Plocate:
 
 sudo mkdir -p /var/lib/plocate
 sudo chmod 755 /var/lib/plocate
+
+For iGPU passthrough on main desktop only:
+
+sudo rpm-ostree kargs --append="amd_iommu=on iommu=pt"
+sudo rpm-ostree kargs --append="rd.driver.pre=vfio-pci"
