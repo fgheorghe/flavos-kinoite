@@ -1,13 +1,3 @@
-NOT REVIEWED, MUST BE TESTED:
-
-Add this to /etc/updatedb.conf:
-
-PRUNE_BIND_MOUNTS = "no"
-
-Add this to /etc/selinux/config:
-
-SELINUX=permissive
-
 Ensure:
 
 sudo virsh net-autostart default
@@ -24,3 +14,6 @@ sudo rpm-ostree kargs --append="rd.driver.pre=vfio-pci"
 systemctl reboot
 sudo rpm-ostree kargs --append="vfio-pci.ids=1002:164e,1002:1640"
 systemctl reboot
+
+See this for grub updates:
+https://www.reddit.com/r/Bazzite/comments/1iaxbow/comment/m9m15hx/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
