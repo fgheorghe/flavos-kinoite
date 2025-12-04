@@ -60,7 +60,8 @@ modules:
         - qemu-kvm
         - virt-install
         - virt-manager
-        - virt-top virt-viewer
+        - virt-top
+        - virt-viewer
 
   - type: systemd
     system:
