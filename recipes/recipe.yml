@@ -39,7 +39,7 @@ modules:
         - dua-cli
         - podman-compose
         - podman-tui
-        - plocate
+        # - plocate
         # - golang-github-nvidia-container-toolkit
         # - ghostty
         # - ollama
