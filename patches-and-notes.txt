@@ -1,0 +1,18 @@
+NOT REVIEWED, MUST BE TESTED:
+
+Add this to /etc/updatedb.conf:
+
+PRUNE_BIND_MOUNTS = "no"
+
+Add this to /etc/selinux/config:
+
+SELINUX=permissive
+
+Ensure:
+
+sudo virsh net-autostart default
+
+Plocate:
+
+sudo mkdir -p /var/lib/plocate
+sudo chmod 755 /var/lib/plocate
