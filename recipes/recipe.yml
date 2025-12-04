@@ -39,10 +39,8 @@ modules:
         - dua-cli
         - podman-compose
         - podman-tui
-        # - plocate
-        # - golang-github-nvidia-container-toolkit
-        # - ghostty
-        # - ollama
+        - plocate
+
     remove:
       packages:
         - firefox
