@@ -2,6 +2,9 @@ Ensure:
 
 sudo virsh net-autostart default
 
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+
+
 Plocate:
 
 sudo mkdir -p /var/lib/plocate
