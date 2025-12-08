@@ -4,6 +4,8 @@ sudo virsh net-autostart default
 
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 
+Add grc aliases by default:
+https://x.com/i/status/1997922599322386453
 
 Plocate:
 
