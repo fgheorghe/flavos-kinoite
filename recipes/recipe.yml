@@ -40,6 +40,7 @@ modules:
         - podman-compose
         - podman-tui
         - plocate
+        - grc
 
     remove:
       packages:
