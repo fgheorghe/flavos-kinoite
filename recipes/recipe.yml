@@ -41,7 +41,7 @@ modules:
         - podman-tui
         - plocate
         - grc
-
+        - fastfetch
     remove:
       packages:
         - firefox
