@@ -52,16 +52,6 @@ modules:
       packages:
         - guestfs-tools
 
-  - type: dnf
-    install:
-      packages:
-        - libvirt-daemon-kvm
-        - qemu-kvm
-        - virt-install
-        - virt-manager
-        - virt-top
-        - virt-viewer
-
   - type: systemd
     system:
       enabled:
