@@ -50,6 +50,18 @@ modules:
   - type: dnf
     install:
       packages:
+        - python3.13
+        - python3.13-devel
+        - python3.12
+        - python3.12-devel
+        - python3.11
+        - python3.11-devel
+        - python3.10
+        - python3.10-devel
+
+  - type: dnf
+    install:
+      packages:
         - guestfs-tools
 
   - type: systemd
