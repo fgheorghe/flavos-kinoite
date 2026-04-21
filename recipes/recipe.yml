@@ -43,6 +43,7 @@ modules:
         - grc
         - fastfetch
         - ripgrep
+        - steam-devices
     remove:
       packages:
         - firefox
