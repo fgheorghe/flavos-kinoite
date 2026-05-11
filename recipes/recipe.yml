@@ -38,6 +38,7 @@ modules:
         - gping
         - dua-cli
         - podman-compose
+        - podman-docker
         - podman-tui
         - plocate
         - grc
