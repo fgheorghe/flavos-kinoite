@@ -11,7 +11,6 @@ alias ps='procs'
 alias df='duf'
 alias du='dua'
 alias top='btop'
-alias sed='sd'
 alias help='tldr'
 
 # zoxide (smarter cd)
