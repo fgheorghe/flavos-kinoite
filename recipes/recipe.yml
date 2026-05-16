@@ -58,7 +58,6 @@ modules:
         - eza              # aliased as 'ls', 'll', 'lt'
         - zoxide           # aliased as 'cd' (via eval)
         - hyperfine
-        - sd               # aliased as 'sed'
         - tealdeer         # aliased as 'help'
     remove:
       packages:
@@ -130,6 +129,8 @@ modules:
           - md.obsidian.Obsidian
           - app.fotema.Fotema
           - io.github.nokse22.Exhibit
+          - com.github.taiko2k.tauonmb
+          - io.github.alainm23.planify
           # - org.openrgb.OpenRGB
           # - runtime/org.freedesktop.Platform.ffmpeg-full/x86_64/24.08
 
