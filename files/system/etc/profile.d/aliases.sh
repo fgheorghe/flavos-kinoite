@@ -11,7 +11,7 @@ alias ps='procs'
 alias df='duf'
 alias du='dua'
 alias top='btop'
-alias help='tldr'
+alias man='tldr'
 
 # zoxide (smarter cd)
 eval "$(zoxide init bash)"
