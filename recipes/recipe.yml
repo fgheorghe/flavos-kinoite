@@ -36,23 +36,30 @@ modules:
         - mc
         - steam-devices
         - openrgb-udev-rules
-        - lm_sensors # For fan speeds and others
+        - lm_sensors      # For fan speeds and others
         - lm_sensors-libs
-        - btop
+        - btop             # aliased as 'top'
         - cool-retro-term
-        - duf
+        - duf              # aliased as 'df'
         - jq
-        - procs
+        - procs            # aliased as 'ps'
         - gping
-        - dua-cli
+        - dua-cli          # aliased as 'du'
         - podman-compose
         - podman-docker
         - podman-tui
         - plocate
         - grc
         - fastfetch
-        - ripgrep
-        - steam-devices
+        - ripgrep          # aliased as 'grep'
+        - fzf              # fuzzy finder for everything - history, files, processes
+        - fd-find          # aliased as 'find'
+        - bat              # aliased as 'cat'
+        - eza              # aliased as 'ls', 'll', 'lt'
+        - zoxide           # aliased as 'cd' (via eval)
+        - hyperfine
+        - sd               # aliased as 'sed'
+        - tealdeer         # aliased as 'help'
     remove:
       packages:
         - firefox
@@ -120,6 +127,9 @@ modules:
           - org.gimp.GIMP
           - org.kde.isoimagewriter
           - org.kde.krita
+          - md.obsidian.Obsidian
+          - app.fotema.Fotema
+          - io.github.nokse22.Exhibit
           # - org.openrgb.OpenRGB
           # - runtime/org.freedesktop.Platform.ffmpeg-full/x86_64/24.08
 
