@@ -127,10 +127,7 @@ modules:
           - org.kde.isoimagewriter
           - org.kde.krita
           - md.obsidian.Obsidian
-          - app.fotema.Fotema
           - io.github.nokse22.Exhibit
-          - com.github.taiko2k.tauonmb
-          - io.github.alainm23.planify
           # - org.openrgb.OpenRGB
           # - runtime/org.freedesktop.Platform.ffmpeg-full/x86_64/24.08
 
