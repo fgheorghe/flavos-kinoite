@@ -4,8 +4,6 @@
 alias ls='eza'
 alias ll='eza -la --git'
 alias lt='eza --tree --level=2'
-alias cat='bat --paging=never'
-alias find='fd'
 alias grep='rg'
 alias ps='procs'
 alias df='duf'
