@@ -63,7 +63,7 @@ modules:
         # KWin MCP
         - libei
         - at-spi2-core
-        - dbus-python
+        - python3-dbus
         - spectacle
         - wl-clipboard
         - wtype
