@@ -59,6 +59,25 @@ modules:
         - zoxide           # aliased as 'cd' (via eval)
         - hyperfine
         - tealdeer         # aliased as 'help'
+
+        # KWin MCP
+        - libei
+        - at-spi2-core
+        - dbus-python
+        - spectacle
+        - wl-clipboard
+        - wtype
+        - wayland-utils
+        - dbus-devel
+        - glib2-devel
+        - gobject-introspection-devel
+        - cairo-gobject-devel
+        - cairo-devel
+        # For gobject and dbus:
+        # python3.10 -m pip install dbus-python PyGObject
+        # python3.11 -m pip install dbus-python PyGObject
+        # python3.12 -m pip install dbus-python PyGObject
+        # python3.13 -m pip install dbus-python PyGObject
     remove:
       packages:
         - firefox
