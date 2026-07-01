@@ -60,7 +60,7 @@ modules:
         - hyperfine
         - tealdeer         # aliased as 'help'
 
-        # KWin MCP
+        # KWin MCP requirements.
         - libei
         - at-spi2-core
         - python3-dbus
@@ -73,16 +73,12 @@ modules:
         - gobject-introspection-devel
         - cairo-gobject-devel
         - cairo-devel
-        # For gobject and dbus:
-        # python3.10 -m pip install dbus-python PyGObject
-        # python3.11 -m pip install dbus-python PyGObject
-        # python3.12 -m pip install dbus-python PyGObject
-        # python3.13 -m pip install dbus-python PyGObject
     remove:
       packages:
         - firefox
         - firefox-langpacks
 
+  # Various Python versions.
   - type: dnf
     install:
       packages:
@@ -95,6 +91,7 @@ modules:
         - python3.10
         - python3.10-devel
 
+  # Godot build requirements.
   - type: dnf
     install:
       packages:
@@ -116,11 +113,13 @@ modules:
         - libatomic-static
         - mingw64-gcc-c++
 
+  # Guestfs
   - type: dnf
     install:
       packages:
         - guestfs-tools
 
+  # Misc services.
   - type: systemd
     system:
       enabled:
