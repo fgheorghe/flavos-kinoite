@@ -78,9 +78,9 @@ modules:
         - cairo-gobject-devel
         - cairo-devel
 
-        # Kernel akmods
-        - akmod-openrgb.x86_64
-        - akmod-ryzen-smu.x86_64
+        # # Kernel akmods
+        # - akmod-openrgb.x86_64
+        # - akmod-ryzen-smu.x86_64
     remove:
       packages:
         - firefox
