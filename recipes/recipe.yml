@@ -73,6 +73,9 @@ modules:
         - gobject-introspection-devel
         - cairo-gobject-devel
         - cairo-devel
+
+        # Local webcam loopback
+        - akmod-v4l2loopback 
     remove:
       packages:
         - firefox
