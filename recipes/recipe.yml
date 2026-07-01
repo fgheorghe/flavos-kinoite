@@ -23,6 +23,7 @@ modules:
   - type: akmods
     install:
       - v4l2loopback
+      - akmod-openrgb.x86_64
   - type: files
     files:
       - source: system
@@ -39,6 +40,7 @@ modules:
         - mc
         - steam-devices
         - openrgb-udev-rules
+        - openrgb.x86_64
         - lm_sensors      # For fan speeds and others
         - lm_sensors-libs
         - btop             # aliased as 'top'
