@@ -23,7 +23,6 @@ modules:
   - type: akmods
     install:
       - v4l2loopback
-      - akmod-openrgb.x86_64
   - type: files
     files:
       - source: system
@@ -78,6 +77,10 @@ modules:
         - gobject-introspection-devel
         - cairo-gobject-devel
         - cairo-devel
+
+        # Kernel akmods
+        - akmod-openrgb.x86_64
+        - akmod-ryzen-smu.x86_64
     remove:
       packages:
         - firefox
@@ -142,7 +145,7 @@ modules:
           - com.github.PintaProject.Pinta
           - com.google.Chrome
           - com.protonvpn.www
-          - com.rtosta.zapzap
+          - com.ktechpit.whatsie
           - com.slack.Slack
           - com.todoist.Todoist
           - com.valvesoftware.Steam
@@ -151,8 +154,9 @@ modules:
           - org.kde.krita
           - md.obsidian.Obsidian
           - io.github.nokse22.Exhibit
-          # - org.openrgb.OpenRGB
-          # - runtime/org.freedesktop.Platform.ffmpeg-full/x86_64/24.08
+          - md.obsidian.Obsidian
+          - com.moonlight_stream.Moonlight
+          - org.qbittorrent.qBittorrent
 
       - scope: user # Also add Flathub user repo, but no user packages
 
