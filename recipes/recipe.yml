@@ -20,6 +20,9 @@ modules:
       - modprobe.blacklist=nouveau
       - initcall_blacklist=simpledrm_platform_driver_init
       - "!amdgpu.dpm=0"
+  - type: akmods
+    install:
+      - v4l2loopback
   - type: files
     files:
       - source: system
@@ -73,9 +76,6 @@ modules:
         - gobject-introspection-devel
         - cairo-gobject-devel
         - cairo-devel
-
-        # Local webcam loopback
-        - akmod-v4l2loopback 
     remove:
       packages:
         - firefox
